@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`splitting requests and merging results of two simple schemas 1`] = `
+"query SomeQuery {
+  this {
+    id
+    a
+  }
+  thing
+}
+"
+`;
+
+exports[`splitting requests and merging results of two simple schemas 2`] = `
+"query SomeQuery {
+  this {
+    id
+    is
+  }
+  random
+}
+"
+`;
+
+exports[`splitting requests and merging results of two simple schemas 3`] = `
+Object {
+  "random": "stuff",
+  "thing": 32,
+  "this": Array [
+    Object {
+      "a": 2,
+      "id": "foo",
+      "is": "two",
+    },
+    Object {
+      "a": 3,
+      "id": "bar",
+      "is": "three",
+    },
+  ],
+}
+`;
