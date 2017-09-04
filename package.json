@@ -17,6 +17,6 @@
     "graphql-mask": "^0.0.1"
   },
   "devDependencies": {
-    "jest-cli": "^20.0.4"
+    "jest-cli": "^21.0.0"
   }
 }
