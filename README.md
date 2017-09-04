@@ -1,5 +1,7 @@
 # graphql-gateway
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/brysgo/graphql-gateway.svg)](https://greenkeeper.io/)
+
 [![CircleCI][build-badge]][build]
 [![npm package][npm-badge]][npm]
 
