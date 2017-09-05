@@ -4,6 +4,8 @@
 
 [![CircleCI][build-badge]][build]
 [![npm package][npm-badge]][npm]
+[![npm downloads][npm-downloads-badge]][npm]
+
 
 Graphql Gateway is a lightweight tool for routing different parts of a graphql query to different graphql apis and merging them back into one.
 
@@ -39,3 +41,4 @@ https://circleci.com/gh/brysgo/graphql-gateway
 
 [npm-badge]: https://img.shields.io/npm/v/graphql-gateway.png?style=flat-square
 [npm]: https://www.npmjs.org/package/graphql-gateway
+[npm-downloads-badge]:https://img.shields.io/npm/dt/graphql-gateway.svg
