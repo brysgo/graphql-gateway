@@ -2,7 +2,7 @@
 
 exports[`splitting requests and merging results of two simple schemas 1`] = `
 "query SomeQuery {
-  this {
+  this(hasAnArgument: 5) {
     id
     a
   }
@@ -13,7 +13,7 @@ exports[`splitting requests and merging results of two simple schemas 1`] = `
 
 exports[`splitting requests and merging results of two simple schemas 2`] = `
 "query SomeQuery {
-  this {
+  this(hasADifferentArgument: \\"foo\\") {
     id
     is
   }

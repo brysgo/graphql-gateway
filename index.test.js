@@ -4,7 +4,7 @@ const graphqlGateway = require("./");
 const schema1 = buildASTSchema(
   parse(`
     type Query {
-      this: [Bar]!
+      this(hasAnArgument: Int): [Bar]!
       thing: Int!
     }
     type Bar {
@@ -17,7 +17,7 @@ const schema1 = buildASTSchema(
 const schema2 = buildASTSchema(
   parse(`
     type Query {
-      this: [Bar]!
+      this(hasADifferentArgument: String): [Bar]!
       random: String
     }
     type Bar {
@@ -54,7 +54,7 @@ test("splitting requests and merging results of two simple schemas", function() 
     metaSchema,
     `
     query SomeQuery {
-      this {
+      this(hasAnArgument: 5, hasADifferentArgument: "foo") {
         id
         is
         a
