@@ -34,6 +34,13 @@ const result = graphqlGateway([{
 
 See the documentation for the `deepmerge` npm module for the `optionalDeepmergeOptions`.
 
+## Alternatives
+
+This tool is really lightweight and useful when you control all the underlying APIs and don't need any join functionality. Some really cool alternatives have been popping up, and while I haven't done a full evaluation, I'd like to point them out.
+
+* [graphql-weaver](https://github.com/AEB-labs/graphql-weaver)
+* [graphql-tools](https://github.com/stubailo/schema-stitching-demo)
+
 [build-badge]: https://circleci.com/gh/brysgo/graphql-gateway.svg?style=shield
 
 [build]: 
