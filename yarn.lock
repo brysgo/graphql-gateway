@@ -488,9 +488,9 @@ deep-is@~0.1.3:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/deep-is/-/deep-is-0.1.3.tgz#b369d6fb5dbc13eecf524f91b070feedc357cf34"
 
-deepmerge@^1.5.1:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-1.5.1.tgz#c053bf06fd7276f1994f70c09a0760cb61a56237"
+deepmerge@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/deepmerge/-/deepmerge-2.0.0.tgz#35f7ee08e8bde1173b3a529f732dcda67ce82e29"
 
 default-require-extensions@^1.0.0:
   version "1.0.0"
@@ -757,9 +757,9 @@ graceful-fs@^4.1.11, graceful-fs@^4.1.2:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
-graphql-mask@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/graphql-mask/-/graphql-mask-0.0.2.tgz#8ade3d86824962fffbd9cc9720bae3db8f2db50e"
+graphql-mask@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/graphql-mask/-/graphql-mask-0.0.4.tgz#8d494eeda6075b12c8844dbb2d7934cc5f58f9cb"
   dependencies:
     graphql "^0.11.2"
 
