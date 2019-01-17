@@ -15,7 +15,7 @@
   "dependencies": {
     "deepmerge": "^3.0.0",
     "graphql": "^0.13.2",
-    "graphql-mask": "^1.0.12"
+    "graphql-mask": "^0.1.1"
   },
   "devDependencies": {
     "jest-cli": "^23.0.0"
