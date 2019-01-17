@@ -14,8 +14,8 @@
   "license": "MIT",
   "dependencies": {
     "deepmerge": "^3.0.0",
-    "graphql": "^0.13.2",
-    "graphql-mask": "^0.1.1"
+    "graphql": "^14.0.0",
+    "graphql-mask": "^1.0.12"
   },
   "devDependencies": {
     "jest-cli": "^23.0.0"
