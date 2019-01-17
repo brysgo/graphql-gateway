@@ -13,7 +13,7 @@
   "author": "Bryan Goldstein",
   "license": "MIT",
   "dependencies": {
-    "deepmerge": "^2.0.0",
+    "deepmerge": "^3.0.0",
     "graphql": "^14.0.0",
     "graphql-mask": "^1.0.12"
   },
