@@ -18,21 +18,22 @@ const graphqlGateway = require("graphql-gateway");
 const combinedQuery = "query FooQuery {}" // the query that will be split up by schema
 const result = graphqlGateway([{
   schema: /*<schema-one>*/,
-  resolve: function(query) {
+  // everything besides resolve gets passed right to graphql-mask
+  resolve: function(query, variables) {
     // query is a string with the peice associated with schema one
     return /*<result-of-query-on-schema-one>*/;
   }
 },{
   schema: /*<schema-two>*/,
-  resolve: function(query) {
+  resolve: function(query, variables) {
     // query is a string with the peice associated with schema two
     return /*<result-of-query-on-schema-two>*/;
   }
 }
-], combinedQuery, optionalDeepmergeOptions);
+], combinedQuery, optionalMergeResolvers);
 ```
 
-See the documentation for the `deepmerge` npm module for the `optionalDeepmergeOptions`.
+See the documentation for the `merge-resolver` npm module for the `optionalMergeResolvers`.
 
 ## Alternatives
 
