@@ -1,6 +1,6 @@
 {
   "name": "graphql-gateway",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Put a bunch of graphql services behind one schema",
   "main": "index.js",
   "scripts": {
@@ -13,9 +13,10 @@
   "author": "Bryan Goldstein",
   "license": "MIT",
   "dependencies": {
-    "deepmerge": "^3.0.0",
+    "array.prototype.flat": "^1.2.1",
     "graphql": "^14.0.0",
-    "graphql-mask": "^1.0.12"
+    "graphql-mask": "^1.0.12",
+    "merge-resolver": "^0.1.1"
   },
   "devDependencies": {
     "jest-cli": "^23.0.0"
