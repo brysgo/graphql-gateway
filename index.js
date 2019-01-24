@@ -35,7 +35,9 @@ module.exports = function graphqlGateway(metaSchema, query, mergeResolvers) {
   const merge = mergeResolver({ ...defaultMergeResolvers, ...mergeResolvers });
   return merge(
     metaSchema.map(function(schemaInfo) {
-      return schemaInfo.resolve(graphqlMask({schema: schemaInfo.schema, query}).maskedQuery);
+      return schemaInfo.resolve(
+        graphqlMask({ schema: schemaInfo.schema, query }).maskedQuery
+      );
     })
   );
 };
