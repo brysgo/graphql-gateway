@@ -1,6 +1,6 @@
 {
   "name": "graphql-gateway",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Put a bunch of graphql services behind one schema",
   "main": "index.js",
   "scripts": {
