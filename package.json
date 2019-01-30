@@ -15,7 +15,7 @@
   "dependencies": {
     "array.prototype.flat": "^1.2.1",
     "graphql-mask": "^0.1.2",
-    "merge-resolver": "^0.1.1"
+    "merge-resolver": "^1.0.0"
   },
   "devDependencies": {
     "graphql": "^14.0.0",
