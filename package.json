@@ -18,7 +18,7 @@
     "merge-resolver": "^1.0.2"
   },
   "devDependencies": {
-    "graphql": "^14.0.0",
+    "graphql": "^14.5.2",
     "jest-cli": "^23.0.0"
   }
 }
