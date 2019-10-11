@@ -13,7 +13,7 @@
   "author": "Bryan Goldstein",
   "license": "MIT",
   "dependencies": {
-    "array.prototype.flat": "^1.2.1",
+    "array.prototype.flat": "^1.2.2",
     "graphql-mask": "^0.1.2",
     "merge-resolver": "^1.0.2"
   },
