@@ -1888,10 +1888,10 @@ mem@^1.1.0:
   dependencies:
     mimic-fn "^1.0.0"
 
-merge-resolver@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/merge-resolver/-/merge-resolver-1.0.2.tgz#e5d00b10268a4487080b96635b19ae866d2e6f46"
-  integrity sha512-kpXVcOL3MO+vYI+qStSM+9dDAEWK+akCsP4mGjl0DWyMG2iIyfQ+yv7/ymQUMtnV6ZbGDrj9m4rNvQvZiH9nmg==
+merge-resolver@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/merge-resolver/-/merge-resolver-1.1.0.tgz#a1ef40449c2ad4e661b1e466e114a6c20931cc4f"
+  integrity sha512-Xr6ulHkgalQn8wXSl2OpvYsm5ou+e9hrIhODsG3HjvSBpeREtorHGAuBDO1KDI+4ZZW2DprJSdgCdYk0f+YIjw==
   dependencies:
     array.prototype.flat "^1.2.1"
 
