@@ -13,12 +13,12 @@
   "author": "Bryan Goldstein",
   "license": "MIT",
   "dependencies": {
-    "array.prototype.flat": "^1.2.1",
+    "array.prototype.flat": "^1.2.3",
     "graphql-mask": "^0.1.2",
-    "merge-resolver": "^1.0.2"
+    "merge-resolver": "^1.1.2"
   },
   "devDependencies": {
-    "graphql": "^14.0.0",
-    "jest-cli": "^23.0.0"
+    "graphql": "^15.3.0",
+    "jest-cli": "^26.1.0"
   }
 }
