@@ -1,8 +1,7 @@
 # graphql-gateway
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/brysgo/graphql-gateway.svg)](https://greenkeeper.io/)
-
-[![CircleCI][build-badge]][build]
+![Update](https://github.com/brysgo/graphql-gateway/workflows/Update/badge.svg)
+![CI](https://github.com/brysgo/graphql-gateway/workflows/CI/badge.svg)
 [![npm package][npm-badge]][npm]
 [![npm downloads][npm-downloads-badge]][npm]
 
@@ -42,10 +41,7 @@ This tool is really lightweight and useful when you control all the underlying A
 * [graphql-weaver](https://github.com/AEB-labs/graphql-weaver)
 * [graphql-tools](https://github.com/stubailo/schema-stitching-demo)
 
-[build-badge]: https://circleci.com/gh/brysgo/graphql-gateway.svg?style=shield
 
-[build]: 
-https://circleci.com/gh/brysgo/graphql-gateway
 
 [npm-badge]: https://img.shields.io/npm/v/graphql-gateway.png?style=flat-square
 [npm]: https://www.npmjs.org/package/graphql-gateway
