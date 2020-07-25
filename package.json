@@ -1,6 +1,6 @@
 {
   "name": "graphql-gateway",
-  "version": "0.0.0-semantic-release",
+  "version": "0.0.0",
   "description": "Put a bunch of graphql services behind one schema",
   "main": "index.js",
   "scripts": {
