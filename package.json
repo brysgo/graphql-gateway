@@ -14,11 +14,11 @@
   "license": "MIT",
   "dependencies": {
     "array.prototype.flat": "^1.2.3",
-    "graphql-mask": "^0.1.2",
-    "merge-resolver": "^1.1.2"
+    "graphql-mask": "^0.0.0",
+    "merge-resolver": "^1.1.9"
   },
   "devDependencies": {
     "graphql": "^15.3.0",
-    "jest-cli": "^26.1.0"
+    "jest-cli": "^26.2.1"
   }
 }
